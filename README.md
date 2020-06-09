@@ -66,7 +66,7 @@ A set of functions that return relative frequencies(absolute frequecy,relative f
                print(f'\n\nAbsolute Frequency of data1:\n')
                print(relF.absolute_frequency(data1))
       
-&nbsp;&nbsp;Output:
+&nbsp;&nbsp;**Output:**
    
             Absolute Frequency of data1:
 
@@ -96,7 +96,7 @@ A set of functions that return relative frequencies(absolute frequecy,relative f
             print(f'\n\nAccumulated Frequency of data2:\n')
             print(relF.accumulated_frequency(data2))
     
-   &nbsp;&nbsp;Output:
+   &nbsp;&nbsp;**Output:**
    
         Accumulated Frequency of data2:
 
@@ -120,7 +120,7 @@ A set of functions that return relative frequencies(absolute frequecy,relative f
           print(f'\n\nRelative Frequency of data3:\n')
           print(relF.relative_frequency(data3)))
       
-  &nbsp;&nbsp;Output:
+  &nbsp;&nbsp;**Output:**
               
           Relative Frequency of data3:
 
@@ -157,7 +157,7 @@ A set of functions that return relative frequencies(absolute frequecy,relative f
               print(f'\n\nRelative Accumulated Frequency of data4:\n')
               print(relF.relative_accumulated_frequency(data4))
               
-   &nbsp;&nbsp;output:     
+   &nbsp;&nbsp;**output:**
                 
               Relative Accumulated Frequency of data4:
 
@@ -188,7 +188,7 @@ A set of functions that return relative frequencies(absolute frequecy,relative f
               print("\nData3:\n")
               print(relF.all_frequencys(data3))
 
-   &nbsp;&nbsp;output:     
+   &nbsp;&nbsp;**output:**     
                 
               All Frequencys of data1 and data3:
 
