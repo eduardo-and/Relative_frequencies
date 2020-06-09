@@ -93,7 +93,7 @@ def relative_accumulated_frequency(dataset):
 
 # Calculate all frequecys(absolute,accumulated,relative and relative accumulated) and return a DataFrame
 # The function receive a list 
-def all_frequencys(dataset):
+def all_frequencies(dataset):
    abF= absolute_frequency(dataset)
    acF= accumulated_frequency(dataset)
    rlF= relative_frequency(dataset)

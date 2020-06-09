@@ -1,6 +1,4 @@
-import relative_frequency
-
-relF = relative_frequency
+import relative_frequency as relF
 
 #
 #Functions
@@ -33,7 +31,7 @@ relF = relative_frequency
 #    Input: list
 #    Return: dataFrame
 #
-#5. all_frequencys(list)
+#5. all_frequencies(list)
 #   
 #    Calculate all frequecys(absolute,accumulated,relative and relative accumulated) and return a DataFrame      
 #          
@@ -65,9 +63,9 @@ print(relF.relative_frequency(data3))
 print(f'\n\nRelative Accumulated Frequency of data4:\n')
 print(relF.relative_accumulated_frequency(data4))
 
-print(f'\n\nAll Frequencys of data1 and data3:\n')
+print(f'\n\nAll Frequencies of data1 and data3:\n')
 print("Data1:\n")
-print(relF.all_frequencys(data1))
+print(relF.all_frequencies(data1))
 print("\nData3:\n")
-print(relF.all_frequencys(data3))
+print(relF.all_frequencies(data3))
 
